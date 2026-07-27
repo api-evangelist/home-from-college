@@ -1,8 +1,14 @@
 aid: home-from-college
 name: Home From College
-description: 'Home From College is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Home From College (H\FC) is an AI-powered growth platform that connects
+  college students with paid work from consumer brands. Students earn money and build
+  professional experience through microGIGs (quick paid tasks such as app installs,
+  surveys, product feedback, and social sharing with instant payment) and GIGs (larger,
+  ongoing opportunities including content creation, brand-ambassador roles, product
+  testing, and internships), while brands reach and activate Gen Z talent for marketing
+  campaigns. Backed by GV, Home From College runs a two-sided marketplace across a
+  student mobile app and a brand-facing web platform. No public developer program,
+  API documentation, or SDKs were found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/home-from-college/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,31 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://homefromcollege.com/og-images/og-image.png
 tags:
 - Company
 - Consumer
+- Marketplace
+- Gen Z
+- Creator Economy
+- Gig Economy
+- Students
+- Marketing
+- Influencer Marketing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/home-from-college-domain-security.yml
 - type: Website
   url: https://www.homefromcollege.com
+- type: Pricing
+  url: https://www.homefromcollege.com/company/pricing
+- type: SignUp
+  url: https://www.homefromcollege.com/signup
+- type: Login
+  url: https://www.homefromcollege.com/login
+- type: Blog
+  url: https://www.homefromcollege.com/blog
+- type: Support
+  url: https://www.homefromcollege.com/resources/faq
+- type: PrivacyPolicy
+  url: https://www.homefromcollege.com/privacy-policy
+- type: TermsOfService
+  url: https://www.homefromcollege.com/client-terms
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
